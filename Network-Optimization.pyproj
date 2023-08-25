@@ -27,7 +27,14 @@
     <Folder Include="01_Hybrid_PCI\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="01_Hybrid_PCI\OPT_eNBConfusion.CSV" />
+    <Content Include="01_Hybrid_PCI\OPT_eNBMod3.CSV" />
     <Content Include="01_Hybrid_PCI\OPT_eNBMod30.CSV" />
+    <Content Include="01_Hybrid_PCI\OPT_eNBMod6.CSV" />
+    <Content Include="01_Hybrid_PCI\OPT_gNBConfusion.CSV" />
+    <Content Include="01_Hybrid_PCI\OPT_gNBMod3.CSV" />
+    <Content Include="01_Hybrid_PCI\OPT_gNBMod30.CSV" />
+    <Content Include="01_Hybrid_PCI\OPT_gNBMod4.CSV" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
