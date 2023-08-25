@@ -27,7 +27,7 @@
     <Folder Include="01_Hybrid_PCI\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="01_Hybrid_PCI\OPT_eNBConfusion.xls" />
+    <Content Include="01_Hybrid_PCI\OPT_eNBMod30.CSV" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
