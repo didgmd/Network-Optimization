@@ -40,15 +40,15 @@ This repository is for sharing the datasets related to **Network Optimization**.
 |   |-- FIGURE29.csv
 |-- 03_DQN_PCI
 |   |-- Fig6.csv
+|   |-- Fig8.csv
 |   |-- Fig9.csv
-|   |-- Fig10.csv
-|   |-- Fig11_Base.csv
-|   |-- Fig11_Plot.csv
+|   |-- Fig10_Base.csv
+|   |-- Fig10_Plot.csv
+|   |-- Fig11a.csv
+|   |-- Fig11b.csv
+|   |-- Fig11c.csv
 |   |-- Fig12a.csv
 |   |-- Fig12b.csv
 |   |-- Fig12c.csv
-|   |-- Fig13a.csv
-|   |-- Fig13b.csv
-|   |-- Fig13c.csv
 ```
 
