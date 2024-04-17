@@ -14,5 +14,30 @@ This repository is for sharing the datasets related to **Network Optimization**.
 |   |-- OPT_gNBMod3.CSV
 |   |-- OPT_gNBMod4.CSV
 |   |-- OPT_gNBMod30.CSV
+|-- 02_DQN_RACH
+|   |-- FIGURE11.csv
+|   |-- FIGURE12.csv
+|   |-- FIGURE13.csv
+|   |-- FIGURE14.csv
+|   |-- FIGURE15.csv
+|   |-- FIGURE16.csv
+|   |-- FIGURE17.csv
+|   |-- FIGURE18a.csv
+|   |-- FIGURE18b.csv
+|   |-- FIGURE18c.csv
+|   |-- FIGURE18d.csv
+|   |-- FIGURE19.csv
+|   |-- FIGURE20.csv
+|   |-- FIGURE21.csv
+|   |-- FIGURE22.csv
+|   |-- FIGURE23.csv
+|   |-- FIGURE24.csv
+|   |-- FIGURE25.csv
+|   |-- FIGURE26.csv
+|   |-- FIGURE27.csv
+|   |-- FIGURE28a.csv
+|   |-- FIGURE28b.csv
+|   |-- FIGURE29.csv
+|-- 03_DQN_PCI
 ```
 
