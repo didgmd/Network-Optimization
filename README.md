@@ -50,5 +50,10 @@ This repository is for sharing the datasets related to **Network Optimization**.
 |   |-- Fig12a.csv
 |   |-- Fig12b.csv
 |   |-- Fig12c.csv
+|-- 04_DRL_PCI
+|   |-- Fig11Fig12.csv
+|   |-- Fig13Fig15Fig16.csv
+|   |-- Fig17.csv
+|   |-- Fig18.csv
 ```
 
