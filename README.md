@@ -65,5 +65,13 @@ This repository is for sharing the datasets related to **Network Optimization**.
 |   |-- Fig13.csv
 |   |-- Fig14.csv
 |   |-- Fig15.csv
+|-- 06_NSA_DRX
+|   |-- Fig6.csv
+|   |-- Fig7.csv
+|   |-- Fig8.csv
+|   |-- Fig9.csv
+|   |-- Fig10a.csv
+|   |-- Fig10b.csv
+|   |-- Fig11.csv
 ```
 
