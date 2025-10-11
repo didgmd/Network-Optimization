@@ -73,5 +73,20 @@ This repository is for sharing the datasets related to **Network Optimization**.
 |   |-- Fig10a.csv
 |   |-- Fig10b.csv
 |   |-- Fig11.csv
+|-- 07_CG-DQN_MRO
+|   |-- Fig7a.csv
+|   |-- Fig7b.csv
+|   |-- Fig8a.csv
+|   |-- Fig8b.csv
+|   |-- Fig9a.csv
+|   |-- Fig9b.csv
+|   |-- Fig10a.csv
+|   |-- Fig10b.csv
+|   |-- Fig11a.csv
+|   |-- Fig11b.csv
+|   |-- Fig11c.csv
+|   |-- Fig12a.csv
+|   |-- Fig12b.csv
+|   |-- Fig12c.csv
 ```
 
