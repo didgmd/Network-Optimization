@@ -1,0 +1,10 @@
+component_order,component,component_label,speed_order,speed_mps,speed_label,ue_index,iterations,total_seconds,mean_ms
+1,catboost_predict,CatBoost,1,1,1,0,5000,0.4762196,0.09524392
+1,catboost_predict,CatBoost,2,3,3,60,5000,0.4713854,0.09427708
+1,catboost_predict,CatBoost,3,6,6,110,5000,0.531258,0.1062516
+2,dqn_action_selection,Value-based,1,1,1,0,5000,1.3728452,0.27456904
+2,dqn_action_selection,Value-based,2,3,3,60,5000,1.4476878,0.28953756
+2,dqn_action_selection,Value-based,3,6,6,110,5000,1.2815151,0.25630302
+3,end_to_end_inference,End-to-end,1,1,1,0,5000,1.8490648,0.36981296
+3,end_to_end_inference,End-to-end,2,3,3,60,5000,1.9190732,0.38381464
+3,end_to_end_inference,End-to-end,3,6,6,110,5000,1.8127731,0.36255462

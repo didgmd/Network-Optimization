@@ -74,19 +74,12 @@ This repository is for sharing the datasets related to **Network Optimization**.
 |   |-- Fig10b.csv
 |   |-- Fig11.csv
 |-- 07_CG-DQN_MRO
-|   |-- Fig7a.csv
-|   |-- Fig7b.csv
-|   |-- Fig8a.csv
-|   |-- Fig8b.csv
-|   |-- Fig9a.csv
-|   |-- Fig9b.csv
-|   |-- Fig10a.csv
-|   |-- Fig10b.csv
-|   |-- Fig11a.csv
-|   |-- Fig11b.csv
-|   |-- Fig11c.csv
-|   |-- Fig12a.csv
-|   |-- Fig12b.csv
-|   |-- Fig12c.csv
+|   |-- figure_source_data/
+|   |-- ns3_dataset/
+|   |-- MD5SUMS.txt
+|   |-- README.md
 ```
 
+## License
+
+Unless otherwise noted, the released datasets and figure-source CSV files are provided under the Creative Commons Attribution 4.0 International License (CC BY 4.0). Users should cite the associated manuscript and preserve attribution when reusing the data.
