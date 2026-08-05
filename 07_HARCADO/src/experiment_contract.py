@@ -11,7 +11,7 @@ from typing import Iterable
 
 REPO_ROOT = Path(os.environ.get("CGDQN_REPO_ROOT", Path(__file__).resolve().parents[1])).resolve()
 SRC_ROOT = REPO_ROOT / "src"
-NS3_ROOT = Path(os.environ.get("CGDQN_NS3_ROOT", REPO_ROOT / "NS3")).resolve()
+NS3_ROOT = Path(os.environ.get("CGDQN_NS3_ROOT", REPO_ROOT / "ns3_dataset")).resolve()
 
 TRAJECTORY_DIR = Path(
     os.environ.get("CGDQN_TRAJECTORY_DIR", NS3_ROOT / "20250424_trajectory_all")
@@ -25,7 +25,7 @@ CATBOOST_DATA_DIR = Path(
 
 MODEL_PATH = Path(os.environ.get("CGDQN_CATBOOST_MODEL", SRC_ROOT / "catboost_model.cbm")).resolve()
 LOG_ROOT = Path(os.environ.get("CGDQN_LOG_ROOT", REPO_ROOT / "logs")).resolve()
-FIGURE_DATA_DIR = Path(os.environ.get("CGDQN_FIGURE_DATA_DIR", REPO_ROOT / "figs")).resolve()
+FIGURE_DATA_DIR = Path(os.environ.get("CGDQN_FIGURE_DATA_DIR", REPO_ROOT / "figure_source_data")).resolve()
 PLOT_OUTPUT_DIR = Path(os.environ.get("CGDQN_PLOT_OUTPUT_DIR", REPO_ROOT / "plots")).resolve()
 
 SPEED_LEVELS = (1.0, 3.0, 6.0)
