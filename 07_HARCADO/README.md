@@ -8,10 +8,12 @@ Open-source implementation accompanying the paper:
 
 ```text
 src/                    Core HARCADO runtime
- tools/                 Optional dataset/model preparation tools
- simulator/             ns-3 scenario source
- ns3_dataset/           Released trajectory dataset
- figure_source_data/    Manuscript figure source data
+├── main.py             Runtime entry point
+├── catboost_model.cbm  Released cue model artifact
+tools/                  Optional dataset/model preparation tools
+simulator/              ns-3 scenario source
+ns3_dataset/            Released trajectory dataset
+figure_source_data/     Manuscript figure source data
 ```
 
 ## Runtime components
@@ -27,11 +29,11 @@ The `src/` directory contains the minimum execution package:
 ## Dataset
 
 - `ns3_dataset/20250424_trajectory_all/` contains released ns-3 trajectory and radio-measurement CSV outputs.
-- `figure_source_data/` contains source data used for manuscript figures.
+- `figure_source_data/` contains source data used to generate manuscript figures.
 
 ## Reproducibility
 
-The released package is intended to reproduce the reported simulation workflow using the provided dataset and model artifacts.
+The package is organized to reproduce the reported simulation workflow using the released trajectory data and model artifact. The original ns-3 scenario source is provided under `simulator/`.
 
 ## Integrity
 
@@ -39,4 +41,4 @@ The released package is intended to reproduce the reported simulation workflow u
 
 ## License
 
-Unless otherwise noted, released datasets and source files are provided under the selected open-source licenses. Users should cite the associated manuscript when reusing this package.
+Source code is released under the MIT License. Released datasets and figure-source artifacts may have separate attribution requirements. Please cite the associated manuscript when reusing this package.
