@@ -41,4 +41,17 @@ The package is organized to reproduce the reported simulation workflow using the
 
 ## License
 
-Source code is released under the MIT License. Released datasets and figure-source artifacts may have separate attribution requirements. Please cite the associated manuscript when reusing this package.
+- Source code is released under the MIT License (`LICENSE`).
+- Released datasets and figure-source artifacts are released under the Creative Commons Attribution 4.0 International License (`LICENSE-DATA`).
+
+When reusing this package, please preserve the corresponding attribution information and cite the associated manuscript.
+
+## Cite Our Work
+
+If you use this repository in academic research, please cite the associated paper.
+
+Please use the following BibTeX entry:
+
+```bibtex
+% The BibTeX entry will be added after the paper is formally published.
+```
