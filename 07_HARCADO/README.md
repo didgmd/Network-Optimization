@@ -48,10 +48,18 @@ When reusing this package, please preserve the corresponding attribution informa
 
 ## Cite Our Work
 
-If you use this repository in academic research, please cite the associated paper.
-
-Please use the following BibTeX entry:
-
 ```bibtex
-% The BibTeX entry will be added after the paper is formally published.
+@article{YUE2026112638,
+	title = {Handover-risk-cue-assisted discrete A3 control for low-mobility multi-cell networks},
+	journal = {Computer Networks},
+	volume = {288},
+	pages = {112638},
+	year = {2026},
+	issn = {1389-1286},
+	doi = {https://doi.org/10.1016/j.comnet.2026.112638},
+	url = {https://www.sciencedirect.com/science/article/pii/S138912862600650X},
+	author = {Zicheng Yue and Heng Yang and Shanshan Li and Jieqiong Feng and Navid Ali Khan and Hongzhang Guo and Yuwei Kong nd Lei Zhang and Siqi Chen},
+	keywords = {A3 handover control, Mobility robustness optimization, Discrete reinforcement learning, Handover-risk cue, Weak-coverage forced handover, Multi-cell network},
+	abstract = {Adaptive A3 handover control in multi-cell networks must respond to degrading serving links while avoiding ping-pong instability. This paper presents a handover-risk-cue-assisted discrete A3 controller that augments the reinforcement-learning state with a history-conditioned handover-risk cue and jointly selects time-to-trigger (TTT) and handover margin (HOM) from a 63-action operator-configurable grid. The design also incorporates weak-coverage forced handover (WCFH) as a safeguard for persistently weak serving links that remain outside standard A3 activation. The framework is evaluated through an ns-3.38 simulation procedure over a 5km×5km multi-cell grid with 25 base stations and low-mobility trajectories at 1ms−1, 3ms−1 and 6ms−1. In the five-seed evaluation, relative to a fixed-threshold A3 baseline, the safeguarded cue-assisted value controller showed lower completed-event ping-pong handover and post-handover radio-link-failure rates, together with a 3.9–5.0 dB higher average post-handover RSRP gain in the 3ms−1 and 6ms−1 cases; the 1ms−1 case is retained as a low-opportunity boundary. Additional comparisons with DDQN, D3QN, and categorical PPO indicate favorable completed-event trends in the evaluated discrete-action setting, while the effect of the cue depends on the DRL backbone and event denominator. Cue-provider analysis separates the deterministic rule cue, retained as an exact audit reference for the current label definition, from the learned probabilistic CatBoost interface, and trigger-level diagnostics show that WCFH shifts control exposure toward weak-coverage intervention opportunities. These results provide bounded directional evidence of favorable completed-event behavior within a controlled and reproducible discrete A3 control framework under the studied low-mobility setting.}
+}
 ```
