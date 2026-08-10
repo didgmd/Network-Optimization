@@ -56,7 +56,7 @@ When reusing this package, please preserve the corresponding attribution informa
 	pages = {112638},
 	year = {2026},
 	issn = {1389-1286},
-	doi = {https://doi.org/10.1016/j.comnet.2026.112638},
+	doi = {10.1016/j.comnet.2026.112638},
 	url = {https://www.sciencedirect.com/science/article/pii/S138912862600650X},
 	author = {Zicheng Yue and Heng Yang and Shanshan Li and Jieqiong Feng and Navid Ali Khan and Hongzhang Guo and Yuwei Kong nd Lei Zhang and Siqi Chen},
 	keywords = {A3 handover control, Mobility robustness optimization, Discrete reinforcement learning, Handover-risk cue, Weak-coverage forced handover, Multi-cell network},
