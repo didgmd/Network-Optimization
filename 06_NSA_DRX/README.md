@@ -80,18 +80,18 @@ When reusing this package, please preserve attribution information and cite the 
 
 ```bibtex
 @article{lian2025enhanced,
-  title={Enhanced NSA-DRX Mechanism for Cognitive 5G Networks Utilizing Q-Learning and Long Short Term Rewards},
-  author={Lian, Xiaohui and Yang, Heng and Li, Shanshan and Liu, Zhenyu and Liu, Xue and Wang, Weiran},
-  journal={IEEE Transactions on Cognitive Communications and Networking},
-  volume={12},
-  number={1},
-  pages={1963-1977},
-  year={2025},
-  publisher={IEEE},
-  doi={10.1109/TCCN.2025.3600997},
-  url={https://ieeexplore.ieee.org/abstract/document/11131237},
-  keywords={Delays;5G mobile communication;Q-learning;Power demand;Millimeter wave communication;Array signal processing;Monitoring;Heuristic algorithms;Receivers;Millimeter wave technology;Cognitive networking;energy efficiency;NSA-DRX;reinforcement learning;semi-Markov process},
-  abstract={Managing the growing energy demands of user equipment (UE) in 5G networks is critical for sustaining prolonged device standby times. The Discontinuous Reception (DRX) mechanism plays a pivotal role in reducing power consumption, but its implementation often results in a trade-off with increased packet delays. Addressing these challenges, we propose an enhanced NSA-DRX mechanism tailored for the NSA deployment model. This mechanism integrates both RRC_CONNECTED and RRC_IDLE states, modeled using an eight-state semi-Markov process to capture the stochastic and dynamic state transitions inherent in DRX operations.The proposed mechanism employs cognitive principles by integrating the Q-learning algorithm to optimize short sleep cycles dynamically. Additionally, a Long Short Term Reward (LSTR) framework is introduced, leveraging multi-scale rewards to balance power efficiency and delay. Simulations demonstrate that the Q-learning and LSTR-enhanced NSA-DRX mechanism achieves a 10% improvement in power-saving performance compared to traditional models while maintaining a balanced trade-off with delay. These results highlight the efficacy of reinforcement learning and reward-based optimization in advancing cognitive communication and networking systems for next-generation networks.}  
+  title = {Enhanced {NSA-DRX} Mechanism for Cognitive {5G} Networks Utilizing {Q-Learning} and Long Short Term Rewards},
+  author = {Lian, Xiaohui and Yang, Heng and Li, Shanshan and Liu, Zhenyu and Liu, Xue and Wang, Weiran},
+  journal = {IEEE Transactions on Cognitive Communications and Networking},
+  volume = {12},
+  pages = {1963--1977},
+  year = {2026},
+  issn = {2332-7731},
+  publisher = {IEEE},
+  doi = {10.1109/TCCN.2025.3600997},
+  url = {https://ieeexplore.ieee.org/abstract/document/11131237},
+  keywords = {Delays;5G mobile communication;Q-learning;Power demand;Millimeter wave communication;Array signal processing;Monitoring;Heuristic algorithms;Receivers;Millimeter wave technology;Cognitive networking;energy efficiency;NSA-DRX;reinforcement learning;semi-Markov process},
+  abstract = {Managing the growing energy demands of user equipment (UE) in 5G networks is critical for sustaining prolonged device standby times. The Discontinuous Reception (DRX) mechanism plays a pivotal role in reducing power consumption, but its implementation often results in a trade-off with increased packet delays. Addressing these challenges, we propose an enhanced NSA-DRX mechanism tailored for the NSA deployment model. This mechanism integrates both RRC_CONNECTED and RRC_IDLE states, modeled using an eight-state semi-Markov process to capture the stochastic and dynamic state transitions inherent in DRX operations.The proposed mechanism employs cognitive principles by integrating the Q-learning algorithm to optimize short sleep cycles dynamically. Additionally, a Long Short Term Reward (LSTR) framework is introduced, leveraging multi-scale rewards to balance power efficiency and delay. Simulations demonstrate that the Q-learning and LSTR-enhanced NSA-DRX mechanism achieves a 10% improvement in power-saving performance compared to traditional models while maintaining a balanced trade-off with delay. These results highlight the efficacy of reinforcement learning and reward-based optimization in advancing cognitive communication and networking systems for next-generation networks.}
 }
 ```
 
