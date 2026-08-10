@@ -82,7 +82,7 @@ When reusing this package, please preserve attribution information and cite the 
 ```bibtex
 @article{LI2026108494,
   title = {Enhanced {PCI} Allocation in Heterogeneous Networks: A Deep Reinforcement Learning Approach with Dynamic Adjustments},
-  author = {Jiani Li and Heng Yang and Zhenyu Liu and Yibo Ming and Xia Ren},
+  author = {Li, Jiani and Yang, Heng and Liu, Zhenyu and Ming, Yibo and Ren, Xia},
   journal = {Computer Communications},
   volume = {251},
   pages = {108494},
