@@ -45,15 +45,18 @@ When reusing this package, please preserve attribution information and cite the 
 
 ```bibtex
 @article{li2024cluster,
-  title={Cluster-based hybrid approach for PCI configuration and optimization in 5G EN-DC heterogeneous networks},
-  author={Li, Pengzhao and Yang, Heng and Kim, Iksang and Liu, Zhenyu and Li, Shanshan},
-  journal={Journal of Network and Systems Management},
-  volume={32},
-  number={2},
-  pages={24},
-  year={2024},
-  publisher={Springer},
+  title = {Cluster-Based Hybrid Approach for {PCI} Configuration and Optimization in {5G EN-DC} Heterogeneous Networks},
+  author = {Pengzhao Li and Heng Yang and Iksang Kim and Zhenyu Liu and Shanshan Li},
+  journal = {Journal of Network and Systems Management},
+  volume = {32},
+  number = {2},
+  pages = {24},
+  year = {2024},
+  issn = {1064-7570},
+  publisher = {Springer},
   doi = {10.1007/s10922-023-09799-0},
-  url = {https://link.springer.com/article/10.1007/s10922-023-09799-0}
+  url = {https://link.springer.com/article/10.1007/s10922-023-09799-0},
+  keywords = {Physical Cell Identity (PCI), EN-DC architecture, heterogeneous networks, PCI collision and confusion, 5G network optimization},
+  abstract = {With the development of 5G technologies and the implementation of EN-DC architecture in heterogeneous networks, managing Physical Cell Identity (PCI) has become increasingly complex. EN-DC, facilitating the coexistence of eNBs and gNBs, creates a densely populated environment that heightens the risk of PCI collisions and confusions. This study introduces a novel hybrid approach to PCI configuration in EN-DC networks, integrating centralized and distributed strategies. By organizing the network into clusters and employing newly introduced algorithms, Symmetrical Comparison (SC) and Symmetrical Triangular Cycling (STC), the method efficiently identifies and resolves PCI confusions. Simulations were conducted to evaluate the effectiveness of the proposed model under various scenarios, revealing its proficiency in preventing PCI confusion and mod 30 collisions. The results underscore the critical role of PCI pool size and offer insights into network planning and optimization. Despite some challenges in handling specific collisions, such as mod 3 and mod 4, the study suggests that incorporating reinforcement learning techniques could provide more adaptive solutions, laying the foundation for future research in this area. The research contributes to the evolving landscape of 5G EN-DC networks, emphasizing the importance of intelligent design and meticulous planning in network management.}
 }
 ```
