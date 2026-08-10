@@ -71,7 +71,7 @@ Please preserve attribution information when reusing this package and cite the a
 ```bibtex
 @article{LIU2024101433,
   title = {Enhanced {RACH} Optimization in {IoT} Networks: A {DQN} Approach for Balancing {H2H} and {M2M} Communications},
-  author = {Xue Liu and Heng Yang and Shanshan Li and Zhenyu Liu and Xiaohui Lian},
+  author = {Liu, Xue and Yang, Heng and Li, Shanshan and Liu, Zhenyu and Lian, Xiaohui},
   journal = {Internet of Things},
   volume = {28},
   pages = {101433},
