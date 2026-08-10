@@ -86,18 +86,19 @@ When reusing this package, please preserve attribution information and cite the 
 
 ```bibtex
 @article{li2024adaptive,
-  title={Adaptive PCI allocation in heterogeneous networks: A DRL-driven framework with hash table, FAGA, and guiding policies},
-  author={Li, Jiani and Yang, Heng and Li, Shanshan and Liu, Zhenyu and Wang, Weiran},
-  journal={IEEE Transactions on Cognitive Communications and Networking},
-  volume={11},
-  number={4},
-  pages={2456--2472},
-  year={2024},
-  publisher={IEEE},
-  doi={10.1109/TCCN.2024.3502510},
-  url={https://ieeexplore.ieee.org/abstract/document/10757321},
-  keywords={Resource management;Optimization;Heuristic algorithms;Planning;Long Term Evolution;Clustering algorithms;5G mobile communication;Interference;Heterogeneous networks;Convergence;Deep reinforcement learning;genetic algorithm;heterogeneous networks;multi-objective simulated annealing;physical cell identity},
-  abstract={The proliferation of 5G heterogeneous networks has significantly increased the number of base stations and user equipments (UEs), leading to heightened wireless interference, network latency, and reduced reliability. Efficient PCI (Physical Cell Identity) allocation is essential for resolving conflicts and confusions, thereby improving resource utilization and network performance. This paper presents an intelligent DRL-based framework for adaptive PCI allocation in large-scale heterogeneous networks. The proposed approach integrates Multi-Objective Simulated Annealing (MOSA) to resolve diverse PCI conflicts. The combination of Deep Deterministic Policy Gradient (DDPG) with an experience pool enhances decision-making efficiency and training stability, while a Fitness-Aided Genetic Algorithm (FAGA) dynamically adjusts key parameters to ensure rapid convergence. A Hash Table supports efficient initial PCI allocation, reducing early-stage conflicts, and a guiding policy accelerates convergence through targeted Q-value calculation. In simulations, standard DRL converged to a loss of $10^{−3}$ , while the proposed model, integrating MOSA, Hash Table, and FAGA, reduced PCI conflict resolution time and achieved more efficient convergence to $10^{−5}$ . Specifically, MOSA improved performance by 87.86%, with Hash Table and FAGA contributing gains of 63.10% and 59.94%, respectively, in optimizing training efficiency. These results highlight the model's adaptability, generalization capability, and practical implications for improving communication network performance.}
+  title = {Adaptive {PCI} Allocation in Heterogeneous Networks: A {DRL}-Driven Framework With Hash Table, {FAGA}, and Guiding Policies},
+  author = {Li, Jiani and Yang, Heng and Li, Shanshan and Liu, Zhenyu and Wang, Weiran},
+  journal = {IEEE Transactions on Cognitive Communications and Networking},
+  volume = {11},
+  number = {4},
+  pages = {2456--2472},
+  year = {2025},
+  issn = {2332-7731},
+  publisher = {IEEE},
+  doi = {10.1109/TCCN.2024.3502510},
+  url = {https://ieeexplore.ieee.org/abstract/document/10757321},
+  keywords = {Resource management;Optimization;Heuristic algorithms;Planning;Long Term Evolution;Clustering algorithms;5G mobile communication;Interference;Heterogeneous networks;Convergence;Deep reinforcement learning;genetic algorithm;heterogeneous networks;multi-objective simulated annealing;physical cell identity},
+  abstract = {The proliferation of 5G heterogeneous networks has significantly increased the number of base stations and user equipments (UEs), leading to heightened wireless interference, network latency, and reduced reliability. Efficient PCI (Physical Cell Identity) allocation is essential for resolving conflicts and confusions, thereby improving resource utilization and network performance. This paper presents an intelligent DRL-based framework for adaptive PCI allocation in large-scale heterogeneous networks. The proposed approach integrates Multi-Objective Simulated Annealing (MOSA) to resolve diverse PCI conflicts. The combination of Deep Deterministic Policy Gradient (DDPG) with an experience pool enhances decision-making efficiency and training stability, while a Fitness-Aided Genetic Algorithm (FAGA) dynamically adjusts key parameters to ensure rapid convergence. A Hash Table supports efficient initial PCI allocation, reducing early-stage conflicts, and a guiding policy accelerates convergence through targeted Q-value calculation. In simulations, standard DRL converged to a loss of $10^{−3}$ , while the proposed model, integrating MOSA, Hash Table, and FAGA, reduced PCI conflict resolution time and achieved more efficient convergence to $10^{−5}$ . Specifically, MOSA improved performance by 87.86%, with Hash Table and FAGA contributing gains of 63.10% and 59.94%, respectively, in optimizing training efficiency. These results highlight the model's adaptability, generalization capability, and practical implications for improving communication network performance.}
 }
 ```
 
