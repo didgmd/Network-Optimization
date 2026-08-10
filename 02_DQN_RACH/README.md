@@ -70,17 +70,18 @@ Please preserve attribution information when reusing this package and cite the a
 
 ```bibtex
 @article{LIU2024101433,
-	title = {Enhanced RACH optimization in IoT networks: A DQN approach for balancing H2H and M2M communications},
-	journal = {Internet of Things},
-	volume = {28},
-	pages = {101433},
-	year = {2024},
-	issn = {2542-6605},
-	doi = {10.1016/j.iot.2024.101433},
-	url = {https://www.sciencedirect.com/science/article/pii/S2542660524003743},
-	author = {Xue Liu and Heng Yang and Shanshan Li and Zhenyu Liu and Xiaohui Lian},
-	keywords = {Cellular-based IoT, Deep Q-network, Machine-to-machine communications, Random access, User priority},
-	abstract = {A novel adaptive Deep Q-Network (DQN)-based algorithm is designed for the dynamic management of the Random Access Channel (RACH) in LTE networks, facilitating the coexistence of Human-to-Human (H2H) and Machine-to-Machine (M2M) communications. This algorithm employs the integration of user priority and block rate-based dynamic adjustment policies within the DQN framework, significantly enhancing service quality across cellular communications. By categorizing devices into three priority tiers based on their Quality of Service (QoS) requirements, the scheme enables dynamic allocation of RACH resources, thus effectively reducing collisions and enhancing network efficiency. Additionally, the implementation of a dual-criteria convergence check within the model ensures the algorithm’s robustness and reliability, offering a significant advancement in managing the intricate dynamics of M2M and H2H communications. This approach not only exhibits effectiveness in access success rates, reductions in access delay, and increased preamble utilization but also underscores the potential for further refinements in learning efficiency and overall performance through dynamic parameter adjustments. This innovative study offers valuable insights into optimizing RACH resources and sets a solid foundation for advancing intelligent network management in increasingly complex communication landscapes.}
+  title = {Enhanced {RACH} Optimization in {IoT} Networks: A {DQN} Approach for Balancing {H2H} and {M2M} Communications},
+  author = {Xue Liu and Heng Yang and Shanshan Li and Zhenyu Liu and Xiaohui Lian},
+  journal = {Internet of Things},
+  volume = {28},
+  pages = {101433},
+  year = {2024},
+  issn = {2542-6605},
+  publisher = {Elsevier},
+  doi = {10.1016/j.iot.2024.101433},
+  url = {https://www.sciencedirect.com/science/article/pii/S2542660524003743},
+  keywords = {Cellular-based IoT, Deep Q-network, Machine-to-machine communications, Random access, User priority},
+  abstract = {A novel adaptive Deep Q-Network (DQN)-based algorithm is designed for the dynamic management of the Random Access Channel (RACH) in LTE networks, facilitating the coexistence of Human-to-Human (H2H) and Machine-to-Machine (M2M) communications. This algorithm employs the integration of user priority and block rate-based dynamic adjustment policies within the DQN framework, significantly enhancing service quality across cellular communications. By categorizing devices into three priority tiers based on their Quality of Service (QoS) requirements, the scheme enables dynamic allocation of RACH resources, thus effectively reducing collisions and enhancing network efficiency. Additionally, the implementation of a dual-criteria convergence check within the model ensures the algorithm’s robustness and reliability, offering a significant advancement in managing the intricate dynamics of M2M and H2H communications. This approach not only exhibits effectiveness in access success rates, reductions in access delay, and increased preamble utilization but also underscores the potential for further refinements in learning efficiency and overall performance through dynamic parameter adjustments. This innovative study offers valuable insights into optimizing RACH resources and sets a solid foundation for advancing intelligent network management in increasingly complex communication landscapes.}
 }
 ```
 
