@@ -81,16 +81,18 @@ When reusing this package, please preserve attribution information and cite the 
 
 ```bibtex
 @article{LI2026108494,
-	title = {Enhanced PCI allocation in heterogeneous networks: A deep reinforcement learning approach with dynamic adjustments},
-	journal = {Computer Communications},
-	volume = {251},
-	pages = {108494},
-	year = {2026},
-	issn = {0140-3664},
-	doi = {10.1016/j.comcom.2026.108494},
-	url = {https://www.sciencedirect.com/science/article/pii/S0140366426000848},
-	author = {Jiani Li and Heng Yang and Zhenyu Liu and Yibo Ming and Xia Ren},
-	keywords = {Deep Q-network, Heterogeneous networks, PCI conflict and confusion, Physical cell identity, Reinforcement learning},
-	abstract = {As 5G networks proliferate, managing network complexity and resolving PCI conflicts become increasingly challenging. This study introduces a DQN-based approach optimized for heterogeneous networks, effectively addressing PCI conflicts and confusions. Integrating reinforcement learning with neural networks, the model incorporates dynamic adjustment mechanisms—R-DAM, E-DAM, and A-DAM—to enhance adaptability and efficacy. Additionally, the guiding policy and EMA algorithm dynamically adjust expected rewards to swiftly reflect state changes, prioritizing nodes requiring PCI adjustments to expedite convergence. Simulation results confirm the model’s effectiveness in significantly reducing PCI conflicts and confusions, with loss values (L̄EMA) starting consistently below 0.5 and reducing to magnitude of 10−4, further demonstrating robustness and adaptability. Despite these advances, challenges remain in scaling the solution to larger and more complex networks. This paper not only sets a precedent for future technological advancements in network management but also highlights the continuous need for innovation to keep pace with the evolving landscape of global communication networks.}
+  title = {Enhanced {PCI} Allocation in Heterogeneous Networks: A Deep Reinforcement Learning Approach with Dynamic Adjustments},
+  author = {Jiani Li and Heng Yang and Zhenyu Liu and Yibo Ming and Xia Ren},
+  journal = {Computer Communications},
+  volume = {251},
+  pages = {108494},
+  year = {2026},
+  issn = {0140-3664},
+  publisher = {Elsevier},
+  doi = {10.1016/j.comcom.2026.108494},
+  url = {https://www.sciencedirect.com/science/article/pii/S0140366426000848},
+  keywords = {Deep Q-network, Heterogeneous networks, PCI conflict and confusion, Physical cell identity, Reinforcement learning},
+  abstract = {As 5G networks proliferate, managing network complexity and resolving PCI conflicts become increasingly challenging. This study introduces a DQN-based approach optimized for heterogeneous networks, effectively addressing PCI conflicts and confusions. Integrating reinforcement learning with neural networks, the model incorporates dynamic adjustment mechanisms—R-DAM, E-DAM, and A-DAM—to enhance adaptability and efficacy. Additionally, the guiding policy and EMA algorithm dynamically adjust expected rewards to swiftly reflect state changes, prioritizing nodes requiring PCI adjustments to expedite convergence. Simulation results confirm the model’s effectiveness in significantly reducing PCI conflicts and confusions, with loss values (L̄EMA) starting consistently below 0.5 and reducing to magnitude of 10−4, further demonstrating robustness and adaptability. Despite these advances, challenges remain in scaling the solution to larger and more complex networks. This paper not only sets a precedent for future technological advancements in network management but also highlights the continuous need for innovation to keep pace with the evolving landscape of global communication networks.}
 }
 ```
+
