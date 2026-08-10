@@ -46,7 +46,7 @@ When reusing this package, please preserve attribution information and cite the 
 ```bibtex
 @article{li2024cluster,
   title = {Cluster-Based Hybrid Approach for {PCI} Configuration and Optimization in {5G EN-DC} Heterogeneous Networks},
-  author = {Pengzhao Li and Heng Yang and Iksang Kim and Zhenyu Liu and Shanshan Li},
+  author = {Li, Pengzhao and Yang, Heng and Kim, Iksang and Liu, Zhenyu and Li, Shanshan},
   journal = {Journal of Network and Systems Management},
   volume = {32},
   number = {2},
