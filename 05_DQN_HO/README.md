@@ -51,18 +51,19 @@ Please preserve attribution and cite the associated manuscript when reusing this
 
 ```bibtex
 @article{wang2025adaptive,
-  title={Adaptive ue handover management with mar-aided multivariate dqn in ultra-dense networks},
-  author={Wang, Weiran and Yang, Heng and Li, Shanshan and Liu, Xue and Wan, Zhaojun},
-  journal={Journal of Network and Systems Management},
-  volume={33},
-  number={1},
-  pages={17},
-  year={2025},
-  publisher={Springer},
-  doi={10.1007/s10922-024-09895-9},
-  url={https://link.springer.com/article/10.1007/s10922-024-09895-9},
-  keywords={Handover, Deep Q-network, Memory anchor repository, Mobility management, Reinforcement learning},
-  abstract={Ultra-Dense Networks (UDNs) are a cornerstone of 5G, offering high-speed transmission and efficient resource management. However, managing frequent handovers in UDNs poses significant challenges, including increased handover failures and frequent triggering, which degrade user experience. This paper proposes an adaptive handover management approach using a multivariate Deep Q-Network (DQN) framework integrated with a Memory Anchor Repository (MAR) mechanism. The framework consists of three DQN models: $\boldsymbol{D}_\mathrm{Dec}$ for handover decision-making, $\boldsymbol{D}_\mathrm{TH}$ for adaptive adjustment of A2 and A4 thresholds, and $\boldsymbol{D}_\mathrm{Tar}$ for target base station selection. These models leverage real-time features such as user location, movement direction, Signal-to-Interference-plus-Noise Ratio (SINR), and Reference Signal Received Power (RSRP). The MAR systematically stores and updates handover success rates at anchor points, enabling the system to learn from historical data and dynamically optimize handover decisions. Simulations conducted in a controlled UDN environment demonstrate that the proposed framework significantly reduces unnecessary handover attempts and failures. After 1250 training iterations, the overall handover failure rate decreases from 35% to 25%, with optimal performance observed using 25 anchor points. These results illustrate the framework’s potential to enhance UDN handover processes, improve overall Quality of Service (QoS), and elevate user experience.}
+  title = {Adaptive {UE} Handover Management with {MAR}-Aided Multivariate {DQN} in Ultra-Dense Networks},
+  author = {Wang, Weiran and Yang, Heng and Li, Shanshan and Liu, Xue and Wan, Zhaojun},
+  journal = {Journal of Network and Systems Management},
+  volume = {33},
+  number = {1},
+  pages = {17},
+  year = {2025},
+  issn = {1064-7570},
+  publisher = {Springer},
+  doi = {10.1007/s10922-024-09895-9},
+  url = {https://link.springer.com/article/10.1007/s10922-024-09895-9},
+  keywords = {Handover, Deep Q-network, Memory anchor repository, Mobility management, Reinforcement learning},
+  abstract = {Ultra-Dense Networks (UDNs) are a cornerstone of 5G, offering high-speed transmission and efficient resource management. However, managing frequent handovers in UDNs poses significant challenges, including increased handover failures and frequent triggering, which degrade user experience. This paper proposes an adaptive handover management approach using a multivariate Deep Q-Network (DQN) framework integrated with a Memory Anchor Repository (MAR) mechanism. The framework consists of three DQN models: $\boldsymbol{D}_\mathrm{Dec}$ for handover decision-making, $\boldsymbol{D}_\mathrm{TH}$ for adaptive adjustment of A2 and A4 thresholds, and $\boldsymbol{D}_\mathrm{Tar}$ for target base station selection. These models leverage real-time features such as user location, movement direction, Signal-to-Interference-plus-Noise Ratio (SINR), and Reference Signal Received Power (RSRP). The MAR systematically stores and updates handover success rates at anchor points, enabling the system to learn from historical data and dynamically optimize handover decisions. Simulations conducted in a controlled UDN environment demonstrate that the proposed framework significantly reduces unnecessary handover attempts and failures. After 1250 training iterations, the overall handover failure rate decreases from 35% to 25%, with optimal performance observed using 25 anchor points. These results illustrate the framework’s potential to enhance UDN handover processes, improve overall Quality of Service (QoS), and elevate user experience.}
 }
 ```
 
