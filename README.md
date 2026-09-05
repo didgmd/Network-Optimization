@@ -1,6 +1,6 @@
 # Network-Optimization
 
-Open-source research packages accompanying a series of publications on intelligent cellular-network optimization. The repository covers physical cell identity (PCI) planning, random-access optimization, mobility and handover control, discontinuous reception (DRX), and reinforcement-learning-based network management.
+Open-source research packages accompanying a series of publications on intelligent cellular-network optimization. The repository covers physical cell identity (PCI) planning, random-access optimization, mobility and handover control, discontinuous reception (DRX), space–air–ground integrated networking (SAGIN), and reinforcement-learning-based network management.
 
 Each numbered directory is organized as a paper-associated package. Depending on the study, a package may contain source code, figure-source data, released datasets, model artifacts, simulation sources, and project-specific reproducibility notes. Please consult the `README.md` inside each project directory for the exact scope of the corresponding release.
 
@@ -54,15 +54,22 @@ The tree below is intentionally limited to two levels.
 │   ├── requirements.txt
 │   ├── LICENSE
 │   └── LICENSE-DATA
-└── 07_HARCADO/
+├── 07_HARCADO/
+│   ├── src/
+│   ├── tools/
+│   ├── simulator/
+│   ├── ns3_dataset/
+│   ├── figure_source_data/
+│   ├── README.md
+│   ├── requirements.txt
+│   ├── MD5SUMS.txt
+│   ├── LICENSE
+│   └── LICENSE-DATA
+└── 08_HMADQN_SAGIN/
     ├── src/
-    ├── tools/
-    ├── simulator/
-    ├── ns3_dataset/
     ├── figure_source_data/
     ├── README.md
     ├── requirements.txt
-    ├── MD5SUMS.txt
     ├── LICENSE
     └── LICENSE-DATA
 ```
@@ -78,6 +85,7 @@ The tree below is intentionally limited to two levels.
 | [`05_DQN_HO`](./05_DQN_HO/) | MAR-aided multivariate DQN for adaptive UE handover management | [5] |
 | [`06_NSA_DRX`](./06_NSA_DRX/) | Q-learning and Long Short Term Reward optimization for NSA-DRX | [6] |
 | [`07_HARCADO`](./07_HARCADO/) | Handover-risk-cue-assisted discrete A3 control for low-mobility multi-cell networks | [7] |
+| [`08_HMADQN_SAGIN`](./08_HMADQN_SAGIN/) | Two-timescale hierarchical multi-agent deep Q-learning for joint association, radio-resource scheduling, and UAV mobility control in SAGINs | [8] |
 
 ## Associated publications
 
@@ -96,6 +104,8 @@ The references below use **IEEE citation style**, which is well aligned with the
 [6] X. Lian, H. Yang, S. Li, Z. Liu, X. Liu, and W. Wang, “Enhanced NSA-DRX Mechanism for Cognitive 5G Networks Utilizing Q-Learning and Long Short Term Rewards,” *IEEE Transactions on Cognitive Communications and Networking*, vol. 12, pp. 1963–1977, 2026. DOI: [10.1109/TCCN.2025.3600997](https://doi.org/10.1109/TCCN.2025.3600997).
 
 [7] Z. Yue, H. Yang, S. Li, J. Feng, N. A. Khan, H. Guo, Y. Kong, L. Zhang, and S. Chen, “Handover-Risk-Cue-Assisted Discrete A3 Control for Low-Mobility Multi-Cell Networks,” *Computer Networks*, vol. 288, Art. no. 112638, 2026. DOI: [10.1016/j.comnet.2026.112638](https://doi.org/10.1016/j.comnet.2026.112638).
+
+[8] Y. Kong, H. Yang, S. Li, R. Lv, M. Rizwan, Z. Yue, H. Guo, L. Zhang, and J. Li, “Two-Timescale Capacity-Aware Hierarchical Multi-Agent Deep Q-Network for Joint Association and Resource–Mobility Control in Space–Air–Ground Integrated Networks,” *Computer Networks*, accepted for publication, 2026. DOI pending.
 
 ## Reproducibility and package scope
 
