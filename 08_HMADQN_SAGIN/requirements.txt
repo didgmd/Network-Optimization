@@ -1,0 +1,5 @@
+# Tested with CPython 3.13.9.
+# Formal accepted-paper runs used PyTorch 2.8.0+cu129 with CPU execution.
+matplotlib==3.10.9
+numpy==2.4.4
+torch==2.8.0
