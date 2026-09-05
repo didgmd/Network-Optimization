@@ -1,0 +1,71 @@
+K,seed,tail_window,metric,value,unit,plot_panel,source_run,notes
+1,42,last_10pct,reward_sum,2.51841473057234,unitless,supp_reward,hmadqn_k_sweep_k1_seed42,K sweep run
+1,42,last_10pct,throughput_mbps,1284.6292197557873,Mbps,A_throughput,hmadqn_k_sweep_k1_seed42,K sweep run
+1,42,last_10pct,qos_satisfaction,0.55818,ratio,B_ratios,hmadqn_k_sweep_k1_seed42,K sweep run
+1,42,last_10pct,jain_fairness,0.7913509962312971,ratio,B_ratios,hmadqn_k_sweep_k1_seed42,K sweep run
+1,42,last_10pct,switch_ratio,0.39815,ratio,B_ratios,hmadqn_k_sweep_k1_seed42,K sweep run
+1,42,last_1000,reward_sum,2.51841473057234,unitless,supp_reward,hmadqn_k_sweep_k1_seed42,K sweep run
+1,42,last_1000,throughput_mbps,1284.6292197557873,Mbps,A_throughput,hmadqn_k_sweep_k1_seed42,K sweep run
+1,42,last_1000,qos_satisfaction,0.55818,ratio,B_ratios,hmadqn_k_sweep_k1_seed42,K sweep run
+1,42,last_1000,jain_fairness,0.7913509962312971,ratio,B_ratios,hmadqn_k_sweep_k1_seed42,K sweep run
+1,42,last_1000,switch_ratio,0.39815,ratio,B_ratios,hmadqn_k_sweep_k1_seed42,K sweep run
+2,42,last_10pct,reward_sum,2.5617556823321737,unitless,supp_reward,hmadqn_k_sweep_k2_seed42,K sweep run
+2,42,last_10pct,throughput_mbps,1368.384594122333,Mbps,A_throughput,hmadqn_k_sweep_k2_seed42,K sweep run
+2,42,last_10pct,qos_satisfaction,0.550895,ratio,B_ratios,hmadqn_k_sweep_k2_seed42,K sweep run
+2,42,last_10pct,jain_fairness,0.7865049313081299,ratio,B_ratios,hmadqn_k_sweep_k2_seed42,K sweep run
+2,42,last_10pct,switch_ratio,0.50474,ratio,B_ratios,hmadqn_k_sweep_k2_seed42,K sweep run
+2,42,last_1000,reward_sum,2.5617556823321737,unitless,supp_reward,hmadqn_k_sweep_k2_seed42,K sweep run
+2,42,last_1000,throughput_mbps,1368.384594122333,Mbps,A_throughput,hmadqn_k_sweep_k2_seed42,K sweep run
+2,42,last_1000,qos_satisfaction,0.550895,ratio,B_ratios,hmadqn_k_sweep_k2_seed42,K sweep run
+2,42,last_1000,jain_fairness,0.7865049313081299,ratio,B_ratios,hmadqn_k_sweep_k2_seed42,K sweep run
+2,42,last_1000,switch_ratio,0.50474,ratio,B_ratios,hmadqn_k_sweep_k2_seed42,K sweep run
+3,42,last_10pct,reward_sum,2.5471956169693737,unitless,supp_reward,hmadqn_k3_original_seed42,K=3 uses original logs
+3,42,last_10pct,throughput_mbps,1394.1822261495786,Mbps,A_throughput,hmadqn_k3_original_seed42,K=3 uses original logs
+3,42,last_10pct,qos_satisfaction,0.5613100000000001,ratio,B_ratios,hmadqn_k3_original_seed42,K=3 uses original logs
+3,42,last_10pct,jain_fairness,0.7943985441182246,ratio,B_ratios,hmadqn_k3_original_seed42,K=3 uses original logs
+3,42,last_10pct,switch_ratio,0.42815000000000003,ratio,B_ratios,hmadqn_k3_original_seed42,K=3 uses original logs
+3,42,last_1000,reward_sum,2.5471956169693737,unitless,supp_reward,hmadqn_k3_original_seed42,K=3 uses original logs
+3,42,last_1000,throughput_mbps,1394.1822261495786,Mbps,A_throughput,hmadqn_k3_original_seed42,K=3 uses original logs
+3,42,last_1000,qos_satisfaction,0.5613100000000001,ratio,B_ratios,hmadqn_k3_original_seed42,K=3 uses original logs
+3,42,last_1000,jain_fairness,0.7943985441182246,ratio,B_ratios,hmadqn_k3_original_seed42,K=3 uses original logs
+3,42,last_1000,switch_ratio,0.42815000000000003,ratio,B_ratios,hmadqn_k3_original_seed42,K=3 uses original logs
+5,42,last_10pct,reward_sum,2.536584227614992,unitless,supp_reward,hmadqn_k_sweep_k5_seed42,K sweep run
+5,42,last_10pct,throughput_mbps,1298.9980271793577,Mbps,A_throughput,hmadqn_k_sweep_k5_seed42,K sweep run
+5,42,last_10pct,qos_satisfaction,0.561192,ratio,B_ratios,hmadqn_k_sweep_k5_seed42,K sweep run
+5,42,last_10pct,jain_fairness,0.7976151640284815,ratio,B_ratios,hmadqn_k_sweep_k5_seed42,K sweep run
+5,42,last_10pct,switch_ratio,0.40347,ratio,B_ratios,hmadqn_k_sweep_k5_seed42,K sweep run
+5,42,last_1000,reward_sum,2.536584227614992,unitless,supp_reward,hmadqn_k_sweep_k5_seed42,K sweep run
+5,42,last_1000,throughput_mbps,1298.9980271793577,Mbps,A_throughput,hmadqn_k_sweep_k5_seed42,K sweep run
+5,42,last_1000,qos_satisfaction,0.561192,ratio,B_ratios,hmadqn_k_sweep_k5_seed42,K sweep run
+5,42,last_1000,jain_fairness,0.7976151640284815,ratio,B_ratios,hmadqn_k_sweep_k5_seed42,K sweep run
+5,42,last_1000,switch_ratio,0.40347,ratio,B_ratios,hmadqn_k_sweep_k5_seed42,K sweep run
+7,42,last_10pct,reward_sum,2.504008590157488,unitless,supp_reward,hmadqn_k_sweep_k7_seed42,K sweep run
+7,42,last_10pct,throughput_mbps,1313.3261499764994,Mbps,A_throughput,hmadqn_k_sweep_k7_seed42,K sweep run
+7,42,last_10pct,qos_satisfaction,0.566412857142857,ratio,B_ratios,hmadqn_k_sweep_k7_seed42,K sweep run
+7,42,last_10pct,jain_fairness,0.7900763437850027,ratio,B_ratios,hmadqn_k_sweep_k7_seed42,K sweep run
+7,42,last_10pct,switch_ratio,0.42772000000000004,ratio,B_ratios,hmadqn_k_sweep_k7_seed42,K sweep run
+7,42,last_1000,reward_sum,2.504008590157488,unitless,supp_reward,hmadqn_k_sweep_k7_seed42,K sweep run
+7,42,last_1000,throughput_mbps,1313.3261499764994,Mbps,A_throughput,hmadqn_k_sweep_k7_seed42,K sweep run
+7,42,last_1000,qos_satisfaction,0.566412857142857,ratio,B_ratios,hmadqn_k_sweep_k7_seed42,K sweep run
+7,42,last_1000,jain_fairness,0.7900763437850027,ratio,B_ratios,hmadqn_k_sweep_k7_seed42,K sweep run
+7,42,last_1000,switch_ratio,0.42772000000000004,ratio,B_ratios,hmadqn_k_sweep_k7_seed42,K sweep run
+1,,not_applicable,uplink_bytes_per_cloud_epoch,8000,bytes,C_overhead,signaling_overhead,not reported without explicit slot-duration assumption
+1,,not_applicable,downlink_bytes_per_cloud_epoch,400,bytes,C_overhead,signaling_overhead,not reported without explicit slot-duration assumption
+1,,not_applicable,total_bytes_per_cloud_epoch,8400,bytes,C_overhead,signaling_overhead,not reported without explicit slot-duration assumption
+1,,not_applicable,total_bytes_per_slot,8400.0,bytes,C_overhead,signaling_overhead,not reported without explicit slot-duration assumption
+2,,not_applicable,uplink_bytes_per_cloud_epoch,8000,bytes,C_overhead,signaling_overhead,not reported without explicit slot-duration assumption
+2,,not_applicable,downlink_bytes_per_cloud_epoch,400,bytes,C_overhead,signaling_overhead,not reported without explicit slot-duration assumption
+2,,not_applicable,total_bytes_per_cloud_epoch,8400,bytes,C_overhead,signaling_overhead,not reported without explicit slot-duration assumption
+2,,not_applicable,total_bytes_per_slot,4200.0,bytes,C_overhead,signaling_overhead,not reported without explicit slot-duration assumption
+3,,not_applicable,uplink_bytes_per_cloud_epoch,8000,bytes,C_overhead,signaling_overhead,not reported without explicit slot-duration assumption
+3,,not_applicable,downlink_bytes_per_cloud_epoch,400,bytes,C_overhead,signaling_overhead,not reported without explicit slot-duration assumption
+3,,not_applicable,total_bytes_per_cloud_epoch,8400,bytes,C_overhead,signaling_overhead,not reported without explicit slot-duration assumption
+3,,not_applicable,total_bytes_per_slot,2800.0,bytes,C_overhead,signaling_overhead,not reported without explicit slot-duration assumption
+5,,not_applicable,uplink_bytes_per_cloud_epoch,8000,bytes,C_overhead,signaling_overhead,not reported without explicit slot-duration assumption
+5,,not_applicable,downlink_bytes_per_cloud_epoch,400,bytes,C_overhead,signaling_overhead,not reported without explicit slot-duration assumption
+5,,not_applicable,total_bytes_per_cloud_epoch,8400,bytes,C_overhead,signaling_overhead,not reported without explicit slot-duration assumption
+5,,not_applicable,total_bytes_per_slot,1680.0,bytes,C_overhead,signaling_overhead,not reported without explicit slot-duration assumption
+7,,not_applicable,uplink_bytes_per_cloud_epoch,8000,bytes,C_overhead,signaling_overhead,not reported without explicit slot-duration assumption
+7,,not_applicable,downlink_bytes_per_cloud_epoch,400,bytes,C_overhead,signaling_overhead,not reported without explicit slot-duration assumption
+7,,not_applicable,total_bytes_per_cloud_epoch,8400,bytes,C_overhead,signaling_overhead,not reported without explicit slot-duration assumption
+7,,not_applicable,total_bytes_per_slot,1200.0,bytes,C_overhead,signaling_overhead,not reported without explicit slot-duration assumption
